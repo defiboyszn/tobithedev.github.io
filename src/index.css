@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  *::-webkit-scrollbar {
+    @apply w-[8px] h-[8px]
+  }
+  /* rounded-[100vh] */
+  *::-webkit-scrollbar-track {
+    @apply dark:bg-transparent
+  }
+  *::-webkit-scrollbar-thumb {
+    @apply bg-main-500 rounded-[100vh] border-[1px] border-[#f6f7ed]
+  }
+    @font-face {
+      font-family: "poppins-medium";
+      src: url("/fonts/Poppins-Medium.ttf");
+    }
+    @font-face {
+      font-family: "poppins-semibold";
+      src: url("/fonts/Poppins-SemiBold.ttf")
+    }
+    @font-face {
+      font-family: "poppins-regular";
+      src: url("/fonts/Poppins-Regular.ttf")
+    }
+    @font-face {
+      font-family: "poppins-light";
+      src: url("/fonts/Poppins-Light.ttf")
+    }
+}
