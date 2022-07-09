@@ -1,18 +1,32 @@
 {
     "projects":[
         {
-            "title": "Some dummy title",
-            "imageUrl": "",
-            "project_url": "",
-            "description": "some basi project description",
-            "tags": [ "react", "postgresql", "nodejs" ]
+            "title": "Dative.js",
+            "imageUrl": "/images/dativejs.png",
+            "project_url": "https://dativejs.js.org",
+            "description": "A Modern UI JavaScript framework",
+            "tags": [ "dativejs", "tailwindcss", "ts"]
         },
         {
-            "title": "Some dummy title",
-            "imageUrl": "",
+            "title": "Hivend",
+            "imageUrl": "/images/hivend.png",
+            "project_url": "https://hivend.click",
+            "description": "We're hivend, an e-learning platform working towards providing digitalised information and education in all formats.",
+            "tags": [ "reactjs", "tailwindcss", "ts"]
+        },
+        {
+            "title": "Phaxad Blog",
+            "imageUrl": "/images/phaxad.png",
             "project_url": "",
-            "description": "some basi project description",
-            "tags": [ "react", "postgresql", "nodejs" ]
-        }
+            "description": "Blog Site",
+            "tags": [ "vue", "tailwindcss", "pizzlejs"]
+        },
+        {
+            "title": "Calculator",
+            "imageUrl": "/images/calculator.png",
+            "project_url": "",
+            "description": "simple calculator with dativejs",
+            "tags": [ "dativejs", "tailwindcss", "nodejs"]
+        }     
     ]
 }
