@@ -24,7 +24,7 @@
         {
             "title": "Calculator",
             "imageUrl": "/images/calculator.png",
-            "project_url": "",
+            "project_url": "https://dative-calculator.netlify.app/",
             "description": "simple calculator with dativejs",
             "tags": [ "dativejs", "tailwindcss", "nodejs"]
         }     
